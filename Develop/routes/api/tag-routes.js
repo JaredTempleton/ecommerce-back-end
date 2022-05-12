@@ -66,7 +66,7 @@ router.put('/:id', (req, res) => {
       id: req.params.id
     }
   }).then (tagData => {
-    if (!tagData) {
+    if (!tagData[0]) {
       res.status(404).json({ message: "Id not found "});
       return;
     }
