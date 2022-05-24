@@ -33,7 +33,7 @@ router.get('/:id', (req, res) => {
     include: [
       {
         model: Product,
-        attributes: ["id", "product_name", "price", "stock", "category_name"]
+        attributes: ["id", "product_name", "price", "stock", "category_id"]
       }
     ]
   }).then (categoryData => {
@@ -43,7 +43,7 @@ router.get('/:id', (req, res) => {
     }
     res.json(categoryData);
   }).catch (err => {
-    console.lof(err);
+    console.log(err);
     res.status(500).json(err);
   });
 });
