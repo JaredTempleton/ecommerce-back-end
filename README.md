@@ -16,9 +16,13 @@ This challenge is to build the back end for a e-commerce site. The application u
 	THEN I am able to successfully create, update, and delete data in my database
 
 ## Walkthrough Video: 
+Starting and Seeding the server: https://drive.google.com/file/d/1Xksb3PE75tbK_4iGlDyfmviXdarkzWqJ/view
+
+Routes in action: https://drive.google.com/file/d/1-yukprQ38Ju9mHG9rNnG8J_rDfV4j-I9/view
 ## Installation
 In order to use this app ion your own environment use "npm install", "npm run seed", then "npm start" in the terminal. To test API routes use a third party program such as Insomnia.
 ## License
 https://opensource.org/licenses/MIT 
 Licensed under MIT Licens
 ## App in use
+![HERE](https://i.imgur.com/aGa6ykG.png)
